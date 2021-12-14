@@ -1,22 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
+import { useSelector } from 'react-redux';
 import Form from './bookComponents/addBook';
 import Book from './bookComponents/renderbook';
 
-const BooksPage = (props) => {
-  const { bookList } = props;
+const BooksPage = () => {
+  const bookList = useSelector((state) => state);
   return (
     <div>
       <ul>
-        {bookList.map((book) => <Book key={book.id} book={book} />)}
+        {bookList.booksReducer.map((book) => <Book key={book.id} book={book} />)}
       </ul>
       <Form />
     </div>
   );
 };
-BooksPage.propTypes = {
-  bookList: PropTypes.arrayOf(PropTypes.object).isRequired,
-};
-
 export default BooksPage;
