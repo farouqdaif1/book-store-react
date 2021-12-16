@@ -8,20 +8,20 @@ const Form = () => {
   const submitForm = (e) => {
     e.preventDefault();
     const title = e.target.querySelector('#title');
-    const author = e.target.querySelector('#author');
+    const category = e.target.querySelector('#category');
     const newBook = {
-      id: uuidv4(),
+      item_id: uuidv4(),
       title: title.value,
-      author: author.value,
+      category: category.value,
     };
     title.value = '';
-    author.value = '';
+    category.value = '';
     dispatch(addBook(newBook));
   };
   return (
     <form id="add-book-form" onSubmit={(e) => submitForm(e)}>
       <input id="title" placeholder="Book Title" />
-      <input id="author" placeholder="Book Author" />
+      <input id="category" placeholder="Book category" />
       <button type="submit"> Add Book </button>
     </form>
   );

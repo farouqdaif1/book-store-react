@@ -8,18 +8,18 @@ const Book = (props) => {
   const { book } = props;
   const dispatch = useDispatch();
   return (
-    <li id={book.id}>
+    <li id={book.item_id}>
       <p className="book-title">{book.title}</p>
-      <p className="book-author">{book.author}</p>
+      <p className="book-author">{book.category}</p>
       <button type="submit" className="remove-btn" onClick={() => dispatch(removeBook(book))}>REMOVE</button>
     </li>
   );
 };
 Book.propTypes = {
   book: PropTypes.shape({
-    id: PropTypes.string,
+    item_id: PropTypes.string,
     title: PropTypes.string,
-    author: PropTypes.string,
+    category: PropTypes.string,
   }).isRequired,
 };
 export default Book;
