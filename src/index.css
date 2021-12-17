@@ -146,6 +146,15 @@ nav {
   background-color: #fff;
   cursor: pointer;
 }
+/* .container {
+  align-self: center;
+} */
+.line {
+  width: 100%;
+  margin: 0.313rem 0.15rem;
+  border: solid 0.5px #e8e8e8;
+  align-self: center;
+}
 
 h3 {
   width: 14.875rem;
@@ -161,12 +170,12 @@ h3 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 90%;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 #title {
-  width: 30rem;
+  width: 25rem;
   height: 2.813rem;
   margin: 1.1rem 2.1rem 0 0.1rem;
   padding: 0.1rem 0.938rem 0.1rem 1rem;
@@ -175,7 +184,7 @@ h3 {
 }
 
 #category {
-  width: 20rem;
+  width: 15rem;
   height: 2.813rem;
   margin: 1.188rem 0;
   padding: 0.1rem 0.1rem 0.1rem 1rem;
@@ -203,10 +212,12 @@ input::placeholder {
   background-color: #0290ff;
   cursor: pointer;
 }
+
 .col-2 {
   display: flex;
   align-items: center;
 }
+
 .prog-pie {
   height: 4rem;
   width: 4rem;
@@ -216,6 +227,7 @@ input::placeholder {
 .CircularProgressbar-path {
   stroke: #307bbe;
 }
+
 .CircularProgressbar-trail {
   stroke: rgba(183, 183, 183, 0.48);
 }
