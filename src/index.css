@@ -83,7 +83,9 @@ nav {
 }
 
 .book-sec {
-  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+  width: 60rem;
   height: 8.625rem;
   margin: 2.313rem 6.25rem 0;
   padding: 2rem 2.188rem 1.625rem 1.288rem;
@@ -95,7 +97,6 @@ nav {
 .book-info {
   display: flex;
   flex-direction: column;
-  margin: 0.513rem 32.75rem 1.188rem 0.1rem;
 }
 
 .book-cat {
@@ -201,4 +202,62 @@ input::placeholder {
   color: #fff;
   background-color: #0290ff;
   cursor: pointer;
+}
+.col-2 {
+  display: flex;
+  align-items: center;
+}
+.prog-pie {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 2rem;
+}
+
+.CircularProgressbar-path {
+  stroke: #307bbe;
+}
+.CircularProgressbar-trail {
+  stroke: rgba(183, 183, 183, 0.48);
+}
+
+.prog-num {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: black;
+}
+
+.prog-comp {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.87rem;
+  color: rgba(0, 0, 0, 0.541);
+  margin-top: -1.5rem;
+}
+
+.col-3 {
+  border-left: 1px solid rgba(0, 0, 0, 0.199);
+  padding-left: 5rem;
+}
+
+.chap-curr {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.813rem;
+  color: rgba(0, 0, 0, 0.507);
+}
+
+.chap {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: black;
+  letter-spacing: -0.4px;
+}
+
+.update-btn {
+  background-color: #0290ff;
+  border: transparent;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  color: white;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.83rem;
 }
