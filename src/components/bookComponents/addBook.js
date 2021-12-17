@@ -19,10 +19,10 @@ const Form = () => {
     dispatch(addBook(newBook));
   };
   return (
-    <form id="add-book-form" onSubmit={(e) => submitForm(e)}>
+    <form id="add-book-form" className="add-book-form" onSubmit={(e) => submitForm(e)}>
       <input id="title" placeholder="Book Title" />
       <input id="category" placeholder="Book category" />
-      <button type="submit"> Add Book </button>
+      <button type="submit" className="submit-btn"> Add Book </button>
     </form>
   );
 };
