@@ -5,7 +5,7 @@ This project will lay foundations for your Bookstore website. I will create a Re
 - Add a book.
 - Remove a selected book.
 
-![image]()
+![image](https://user-images.githubusercontent.com/84907743/145399498-3f5fca7b-1728-4e43-beca-af39663b0f3e.png)
 
 ## Built With
 
@@ -13,7 +13,7 @@ This project will lay foundations for your Bookstore website. I will create a Re
 
 ## Live Demo
 
-[Link]()
+[Link](https://vigorous-swirles-bc4a8f.netlify.app/)
 
 ## Getting Started
 
