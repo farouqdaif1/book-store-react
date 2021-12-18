@@ -11,7 +11,7 @@ const BooksPage = () => {
     dispatch(getAllbooks());
   }, [dispatch]);
   return (
-    <div>
+    <div className="main-c">
       <ul>
         {bookList.booksReducer.map((book) => <Book key={book.item_id} book={book} />)}
       </ul>
