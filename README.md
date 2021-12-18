@@ -5,7 +5,7 @@ This project will lay foundations for your Bookstore website. I will create a Re
 - Add a book.
 - Remove a selected book.
 
-![image](https://user-images.githubusercontent.com/84907743/145399498-3f5fca7b-1728-4e43-beca-af39663b0f3e.png)
+![screenshot](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiNmVjZjdjOTYtNzczNS00NjA0LTk1YzAtOTdlYWQ5MmY0MWM3IiwiZGVwbG95X2lkIjoiNjFiZDFiZmEzNjQwOTIwMDA4OGQxYzVkIiwiaWQiOiI0ODg1MmJmYi1hMjcwLTQ1M2QtOWYzZi1hNGNkMTNjZjY1NDgifQ==)
 
 ## Built With
 
